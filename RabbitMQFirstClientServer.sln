@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{9236301C-6E3A-4545-A17E-479A17A43EB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{90463F0C-A5E1-460C-B38B-368E0096C450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQClient", "RabbitMQClient\RabbitMQClient.csproj", "{50844D9D-B0A5-4D07-8EB1-BED2DACFDE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQServer", "RabbitMQServer\RabbitMQServer.csproj", "{49CE050B-1BBE-452F-B6FC-E63F63793840}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{5D6AC2DE-0BF7-4B23-9C16-6BF2CB4A65D7}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\SetupRabbitMQ.bat = Scripts\SetupRabbitMQ.bat
+		Scripts\SetupRabbitMQ.ps1 = Scripts\SetupRabbitMQ.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50844D9D-B0A5-4D07-8EB1-BED2DACFDE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50844D9D-B0A5-4D07-8EB1-BED2DACFDE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50844D9D-B0A5-4D07-8EB1-BED2DACFDE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50844D9D-B0A5-4D07-8EB1-BED2DACFDE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CE050B-1BBE-452F-B6FC-E63F63793840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CE050B-1BBE-452F-B6FC-E63F63793840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CE050B-1BBE-452F-B6FC-E63F63793840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CE050B-1BBE-452F-B6FC-E63F63793840}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50844D9D-B0A5-4D07-8EB1-BED2DACFDE43} = {90463F0C-A5E1-460C-B38B-368E0096C450}
+		{49CE050B-1BBE-452F-B6FC-E63F63793840} = {9236301C-6E3A-4545-A17E-479A17A43EB0}
+	EndGlobalSection
+EndGlobal
